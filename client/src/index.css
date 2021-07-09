@@ -1,0 +1,179 @@
+*{
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+.navbarcontainer{
+  display: flex;
+  justify-content:space-between;
+}
+.me-auto{
+  display: flex !important;
+  justify-content: space-around !important;
+  color: white !important;
+  width: 70% !important;
+}
+.homenav{
+color: white;
+font-size: 3rem;
+}
+.writeblogsnav{
+  color: white;
+  font-size: 3rem;
+}
+.aboutmenav{
+  color: white;
+  font-size: 3rem;
+}
+.homenav:hover{
+  color: darkmagenta;
+  cursor: pointer;
+  text-decoration-line: none;
+}
+.writeblogsnav:hover{
+  color: darkmagenta;
+  cursor: pointer;
+  text-decoration-line: none;
+}
+.aboutmenav:hover{
+  color: darkmagenta;
+  cursor: pointer;
+  text-decoration-line: none;
+}
+.fhead{
+  color: white;
+  font-size: 3rem;
+
+}
+.fhead:hover{
+  color: darkmagenta;
+  cursor: pointer;
+  text-decoration-line: none;
+}
+
+@media (max-width:800px){
+  html{
+    font-size: 24%;
+  }
+
+}
+.frms{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 1rem 1rem 1rem 1rem rgb(218, 211, 211);
+  width: max-content;
+}
+.name{
+  margin-top: 3rem;
+  font-size: 3rem;
+}
+.tname{
+  margin-top: 3rem;
+  font-size: 3rem;
+}
+.bloggs{
+  margin-top: 3rem;
+  font-size: 3rem;
+  height: max-content;
+}
+.submitbtn{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+  font-size: 3rem;
+  background-color: royalblue;
+  color: white;
+  cursor: pointer;
+}
+.submitbtn:hover{
+  background-color: rebeccapurple;
+  box-shadow: .5rem .5rem .5rem .5rem rgb(218, 211, 211);
+}
+.myform{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+ 
+}
+.outercard00{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+.outercard01{
+  margin-top: 4rem;
+  box-shadow: .5rem .5rem .5rem .5rem rgb(218, 211, 211);
+  width: 50rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+.heading001{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3.7rem;
+ 
+}
+.m{
+  color: red;
+}
+.y{
+  color: blue;
+}
+.b{
+  color: green;
+}
+.l{
+  color: gold;
+}
+.o{
+  color: brown;
+}
+.g{
+  color: black;
+}
+.a{
+  color: purple;
+}
+.p{
+  color: orange;
+}
+.pa{
+  color: olive;
+}
+.heading001{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 6rem;
+}
+.btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.updatebtn:hover{
+  color: rgb(28, 204, 28) !important;
+  box-shadow: .5rem .5rem .5rem .5rem rgb(218, 211, 211);
+}
+.delbtn:hover{
+  color: red !important;
+  box-shadow: .5rem .5rem .5rem .5rem rgb(218, 211, 211);
+
+}
+.dic{
+  font-size: 3rem !important;
+
+}
+
+.uic{
+    font-size: 3rem !important;
+  }
